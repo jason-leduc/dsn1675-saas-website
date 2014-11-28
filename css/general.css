@@ -123,6 +123,11 @@ a:focus {
   top: 0;
 }
 
+.graphic {
+    margin: 0;
+    position: relative;
+}
+
 .img-flex {
   display: block;
   width: 100%;
