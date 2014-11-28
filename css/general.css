@@ -43,6 +43,29 @@ html {
   box-sizing: inherit;
 }
 
+h1 {
+    color: white;
+}
+
+.header img {
+  float: left;
+  width: 4.5rem;
+  height: 5rem;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 5px;
+}
+
+.logo {
+    width: 4.5rem;
+    height: 5rem;
+    float: left;
+    margin: 1rem 2.5%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -68,9 +91,9 @@ a:focus {
   position: absolute;
   top: -3em;
 
-  background-color: #CC0000;
+  background-color: darkblue;
 
-  color: #fff;
+  color: white;
   font-size: 1.125em;
   font-weight: bold;
   text-decoration: none;
@@ -108,7 +131,7 @@ a:focus {
 .nav a:visited {
   display: block;
 
-  color: #990000;
+  color: white;
   text-decoration: none;
 }
 
@@ -118,17 +141,17 @@ a:focus {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-  background-color: #FF4747;
+  background-color: blue;
 
   color: #fff;
 }
 
 .section-dark {
-  background-color: #D63333;
+  background-color: darkblue;
 }
 
 .section-mid {
-  background-color: #DE5C5C;
+  background-color: blue;
 }
 
 .section {
@@ -331,3 +354,4 @@ textarea {
     text-align: left;
   }
 
+}
