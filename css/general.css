@@ -27,7 +27,7 @@ html {
     
 html {
     font-size: 120%;
-    }
+}
 
 }
 
@@ -50,6 +50,27 @@ a {
 
 h1 {
  color: #fff;   
+}
+
+.logo {
+    height: 4.5rem;
+    width: auto;
+    margin: .5rem 5%;
+    
+    /* float: right; */
+    /* margin: .5rem auto */
+}
+
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
 }
 
 body {
@@ -121,7 +142,7 @@ a:focus {
 }
 
 .section-dark {
-  background-color: darkblue;
+    background-color: darkblue; 
 }
 
 img {
@@ -162,14 +183,6 @@ tbody td {
   border-bottom: 1px solid #e2e2e2;
 }
 
-.billboardtype-b {
-    color: white;   
-}
-
-.billboardtype {
-    text-align: center;   
-}
-
 button {
     font-size: 3em;
     font-weight: bold;
@@ -185,11 +198,7 @@ button {
     margin: 1em
 }
 
-.button:before,
-.icon-heart:after,
-.icon-star:after,
-.icon-plus:after,
-.icon-file:before {
+.button:before {
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -224,10 +233,6 @@ button {
     background-size: cover;
     background-position:center center;
     
-}
-
-.over {
-    overflow: hidden;
 }
 
 .nav a:hover,
@@ -324,6 +329,10 @@ button {
         padding: 15em 10em 0 10em;
     }
     
+    .discovery-text {
+    padding-right: 1.5rem;
+  }
+    
     }
     
     .pushl {
@@ -333,6 +342,9 @@ button {
 
 @media only screen and (min-width: 60em) {
     
+    .discovery-text {
+    padding-left: 1.5rem;
+  }
     
 }
 
